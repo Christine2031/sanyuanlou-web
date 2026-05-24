@@ -750,7 +750,7 @@ export default function App() {
                     }`}>
                       <div className="flex items-center gap-1.5">
                         <span className={`h-1.5 w-1.5 rounded-full ${member.halfsphereSynced ? "bg-emerald-500" : "bg-amber-400"}`} />
-                        <span className="font-bold">穹弯Halfsphere</span>
+                        <span className="font-bold">穹弯会员籍</span>
                         <span className="opacity-70">
                           {member.halfsphereSynced
                             ? (member.halfsphereId ? `· ${member.halfsphereId}` : "· 已同步")
