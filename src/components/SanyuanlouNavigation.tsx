@@ -1,6 +1,7 @@
 import React from "react";
 import { ShieldCheck, Anchor, Database, CreditCard, Activity, Globe } from "lucide-react";
 import { Language, NAV_TRANSLATIONS } from "../data/translations";
+import { SanyuanlouLogo } from "./SanyuanlouLogo";
 
 interface NavigationProps {
   activeTab: string;
@@ -17,14 +18,16 @@ export default function SanyuanlouNavigation({ activeTab, setActiveTab, lang, se
     <nav className="border-b border-[#E6E6FA] bg-white sticky top-0 z-50 shadow-[0_2px_15px_-3px_rgba(106,90,205,0.03)]">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex h-24 items-center justify-between">
-          {/* Brand Identity with strict classical lettering */}
-          <div className="flex items-center gap-4">
-            <div className="bg-[#8A1C34] text-white p-2.5 rounded-xs flex items-center justify-center font-serif text-lg font-bold tracking-widest shadow-sm">
-              三
-            </div>
+          {/* Brand Identity */}
+          <div className="flex items-center gap-3">
+            {/* Circular seal logo */}
+            <SanyuanlouLogo
+              size={54}
+              className="drop-shadow-sm shrink-0"
+            />
             <div>
               <div className="text-xl lg:text-2xl font-serif tracking-[0.25em] font-extrabold text-[#2D2D2D]">
-                SANYUANLOU <span className="font-sans text-xs font-light tracking-wide text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded-sm">1846</span>
+                SANYUANLOU
               </div>
               <div className="text-[10px] tracking-widest text-[#6A5ACD] font-mono uppercase mt-0.5 flex items-center gap-1">
                 <ShieldCheck className="h-3 w-3" /> {t.badge}{lang === "en" ? " & Digital Assets" : ""}
