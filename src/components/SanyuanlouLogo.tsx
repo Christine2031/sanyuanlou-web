@@ -14,8 +14,8 @@ interface SanyuanlouLogoProps {
  * All drawn as inline SVG so it scales cleanly to any size.
  */
 export function SanyuanlouLogo({ size = 56, className = "" }: SanyuanlouLogoProps) {
-  const G = "#C9A96E"; // champagne gold
-  const G2 = "rgba(201,169,110,0.55)"; // lighter gold for veins / stamens
+  const G = "#B8882A"; // 古金 · deep antique gold (高级感，白底上对比度强)
+  const G2 = "rgba(184,136,42,0.55)"; // lighter gold for veins / stamens
 
   // ── Bauhinia petal ────────────────────────────────────────
   // Pointing straight UP from flower center (100, 111).

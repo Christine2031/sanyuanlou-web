@@ -1,0 +1,48 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="三元楼 1846 印章">
+  <defs>
+    <clipPath id="clip">
+      <circle cx="100" cy="100" r="97"/>
+    </clipPath>
+    <path id="arc-top" d="M 14,100 A 86,86 0 0,1 186,100" fill="none"/>
+  </defs>
+
+  <circle cx="100" cy="100" r="99" fill="white"/>
+  <circle cx="100" cy="100" r="96" stroke="#B8882A" stroke-width="2"   fill="none"/>
+  <circle cx="100" cy="100" r="90" stroke="#B8882A" stroke-width="0.7" fill="none"/>
+
+  <g clip-path="url(#clip)">
+    <circle cx="100" cy="100" r="90" fill="rgba(184,136,42,0.04)"/>
+    <rect x="30" y="27" width="140" height="146" stroke="#B8882A" stroke-width="0.9" fill="none"/>
+    <path d="M 30,47 V 27 H 50"    stroke="#B8882A" stroke-width="2.4" stroke-linecap="square"/>
+    <path d="M 150,27 H 170 V 47"  stroke="#B8882A" stroke-width="2.4" stroke-linecap="square"/>
+    <path d="M 30,153 V 173 H 50"  stroke="#B8882A" stroke-width="2.4" stroke-linecap="square"/>
+    <path d="M 150,173 H 170 V 153" stroke="#B8882A" stroke-width="2.4" stroke-linecap="square"/>
+    <line x1="30"  y1="72" x2="170" y2="72" stroke="#B8882A" stroke-width="0.8"/>
+    <line x1="76"  y1="27" x2="76"  y2="72" stroke="#B8882A" stroke-width="0.55"/>
+    <line x1="124" y1="27" x2="124" y2="72" stroke="#B8882A" stroke-width="0.55"/>
+    <text x="53"  y="61" text-anchor="middle" font-family="'Noto Serif SC',STSong,SimSun,'Times New Roman',serif" font-size="22" fill="#B8882A">三</text>
+    <text x="100" y="61" text-anchor="middle" font-family="'Noto Serif SC',STSong,SimSun,'Times New Roman',serif" font-size="22" fill="#B8882A">元</text>
+    <text x="147" y="61" text-anchor="middle" font-family="'Noto Serif SC',STSong,SimSun,'Times New Roman',serif" font-size="22" fill="#B8882A">楼</text>
+    <line x1="30" y1="150" x2="170" y2="150" stroke="#B8882A" stroke-width="0.8"/>
+    <polygon points="42,161 46,157 50,161 46,165"    fill="#B8882A" opacity="0.75"/>
+    <polygon points="150,161 154,157 158,161 154,165" fill="#B8882A" opacity="0.75"/>
+    <text x="100" y="165" text-anchor="middle" font-family="'Cormorant Garamond',Garamond,'EB Garamond',Georgia,serif" font-size="13" fill="#B8882A" letter-spacing="6">1846</text>
+    <g transform="rotate(0,100,111)"><path d="M 100,111 C 94,103 89,93 91,84 C 93,79 95,76 97,75 C 98,73 99,72 100,72 C 101,72 102,73 103,75 C 105,76 107,79 109,84 C 111,93 106,103 100,111 Z" stroke="#B8882A" stroke-width="0.85" fill="none" stroke-linejoin="round"/><line x1="100" y1="107" x2="100" y2="74" stroke="rgba(184,136,42,0.55)" stroke-width="0.4"/><path d="M 100,93 C 97,88 96,84 96,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/><path d="M 100,93 C 103,88 104,84 104,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/></g>
+    <g transform="rotate(72,100,111)"><path d="M 100,111 C 94,103 89,93 91,84 C 93,79 95,76 97,75 C 98,73 99,72 100,72 C 101,72 102,73 103,75 C 105,76 107,79 109,84 C 111,93 106,103 100,111 Z" stroke="#B8882A" stroke-width="0.85" fill="none" stroke-linejoin="round"/><line x1="100" y1="107" x2="100" y2="74" stroke="rgba(184,136,42,0.55)" stroke-width="0.4"/><path d="M 100,93 C 97,88 96,84 96,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/><path d="M 100,93 C 103,88 104,84 104,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/></g>
+    <g transform="rotate(144,100,111)"><path d="M 100,111 C 94,103 89,93 91,84 C 93,79 95,76 97,75 C 98,73 99,72 100,72 C 101,72 102,73 103,75 C 105,76 107,79 109,84 C 111,93 106,103 100,111 Z" stroke="#B8882A" stroke-width="0.85" fill="none" stroke-linejoin="round"/><line x1="100" y1="107" x2="100" y2="74" stroke="rgba(184,136,42,0.55)" stroke-width="0.4"/><path d="M 100,93 C 97,88 96,84 96,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/><path d="M 100,93 C 103,88 104,84 104,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/></g>
+    <g transform="rotate(216,100,111)"><path d="M 100,111 C 94,103 89,93 91,84 C 93,79 95,76 97,75 C 98,73 99,72 100,72 C 101,72 102,73 103,75 C 105,76 107,79 109,84 C 111,93 106,103 100,111 Z" stroke="#B8882A" stroke-width="0.85" fill="none" stroke-linejoin="round"/><line x1="100" y1="107" x2="100" y2="74" stroke="rgba(184,136,42,0.55)" stroke-width="0.4"/><path d="M 100,93 C 97,88 96,84 96,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/><path d="M 100,93 C 103,88 104,84 104,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/></g>
+    <g transform="rotate(288,100,111)"><path d="M 100,111 C 94,103 89,93 91,84 C 93,79 95,76 97,75 C 98,73 99,72 100,72 C 101,72 102,73 103,75 C 105,76 107,79 109,84 C 111,93 106,103 100,111 Z" stroke="#B8882A" stroke-width="0.85" fill="none" stroke-linejoin="round"/><line x1="100" y1="107" x2="100" y2="74" stroke="rgba(184,136,42,0.55)" stroke-width="0.4"/><path d="M 100,93 C 97,88 96,84 96,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/><path d="M 100,93 C 103,88 104,84 104,80" stroke="rgba(184,136,42,0.55)" stroke-width="0.35" fill="none"/></g>
+    <line x1="100" y1="111" x2="109.4" y2="98.1"  stroke="#B8882A" stroke-width="0.5"/><circle cx="109.4" cy="98.1"  r="1.8" fill="#B8882A"/>
+    <line x1="100" y1="111" x2="115.2" y2="116.0" stroke="#B8882A" stroke-width="0.5"/><circle cx="115.2" cy="116.0" r="1.8" fill="#B8882A"/>
+    <line x1="100" y1="111" x2="100.0" y2="127.0" stroke="#B8882A" stroke-width="0.5"/><circle cx="100.0" cy="127.0" r="1.8" fill="#B8882A"/>
+    <line x1="100" y1="111" x2="84.8"  y2="116.0" stroke="#B8882A" stroke-width="0.5"/><circle cx="84.8"  cy="116.0" r="1.8" fill="#B8882A"/>
+    <line x1="100" y1="111" x2="90.6"  y2="98.1"  stroke="#B8882A" stroke-width="0.5"/><circle cx="90.6"  cy="98.1"  r="1.8" fill="#B8882A"/>
+    <circle cx="100" cy="111" r="5"   stroke="#B8882A" stroke-width="0.8" fill="white"/>
+    <circle cx="100" cy="111" r="2.4" fill="#B8882A"/>
+    <text font-family="'Cormorant Garamond',Garamond,Georgia,serif" font-size="7" fill="#B8882A" letter-spacing="1.8" opacity="0.9">
+      <textPath href="#arc-top" startOffset="4%">HONGKONG · SAN YUAN BUILDING · 1846 ·</textPath>
+    </text>
+  </g>
+</svg>
