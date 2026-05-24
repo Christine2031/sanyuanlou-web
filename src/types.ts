@@ -49,6 +49,7 @@ export interface MemberRegistration {
   tier: "Gold" | "Platinum" | "BlackCard";
   cid: string;
   registeredAt: string;
+  status: "pending" | "approved";
   halfsphereId: string | null;
   halfsphereSynced: boolean;
 }

@@ -80,6 +80,7 @@ export default function App() {
             tier: data.tier as MemberRegistration["tier"],
             cid: data.cid,
             registeredAt: data.registered_at,
+            status: data.status ?? "pending",
             halfsphereId: data.halfsphere_id ?? null,
             halfsphereSynced: data.halfsphere_synced ?? false
           });
@@ -148,6 +149,7 @@ export default function App() {
         tier: data.tier as MemberRegistration["tier"],
         cid: data.cid,
         registeredAt: data.registered_at,
+        status: data.status ?? "pending",
         halfsphereId: data.halfsphere_id ?? null,
         halfsphereSynced: data.halfsphere_synced ?? false
       };
@@ -717,10 +719,28 @@ export default function App() {
                     <div className="text-xs font-mono text-gray-400 tracking-wider uppercase pb-2 border-b border-gray-100">
                       {CRM_TRANSLATIONS[lang].activeNode}
                     </div>
-                    
-                    <p className="text-xs text-emerald-800 bg-emerald-50 p-2.5 rounded font-medium">
-                      {CRM_TRANSLATIONS[lang].congrats}
-                    </p>
+
+                    {/* 两步流程：待审核 / 已通过 */}
+                    {member.status === "pending" ? (
+                      <div className="space-y-3">
+                        <div className="flex items-center justify-center gap-2">
+                          <span className="h-2 w-2 rounded-full bg-amber-400 animate-pulse" />
+                          <p className="text-sm font-bold text-amber-700 tracking-wide">
+                            {CRM_TRANSLATIONS[lang].pendingTitle}
+                          </p>
+                        </div>
+                        <p className="text-[11px] text-gray-500 font-mono leading-relaxed">
+                          {CRM_TRANSLATIONS[lang].pendingDesc}
+                        </p>
+                        <div className="text-[10px] font-mono text-gray-400 border border-dashed border-gray-200 rounded-lg px-3 py-2">
+                          申请编号 · {member.cid}
+                        </div>
+                      </div>
+                    ) : (
+                      <p className="text-xs text-emerald-800 bg-emerald-50 p-2.5 rounded font-medium">
+                        {CRM_TRANSLATIONS[lang].congrats}
+                      </p>
+                    )}
 
                     {/* Halfsphere sync status badge */}
                     <div className={`flex items-center justify-between px-3 py-2 rounded-lg text-[11px] font-mono border ${
