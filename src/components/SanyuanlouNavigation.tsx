@@ -24,8 +24,11 @@ export default function SanyuanlouNavigation({ activeTab, setActiveTab, lang, se
               三
             </div>
             <div>
-              <div className="text-xl lg:text-2xl font-serif tracking-[0.25em] font-extrabold text-[#2D2D2D]">
-                SANYUANLOU <span className="font-sans text-xs font-light tracking-wide text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded-sm">1846</span>
+              <div
+                className="text-2xl lg:text-3xl font-extrabold text-[#2D2D2D] tracking-[0.18em]"
+                style={{ fontFamily: "'STKaiti', '华文楷体', 'KaiTi', '楷体', 'STSong', serif", WebkitTextStroke: "0.5px #1a1a1a" }}
+              >
+                三元楼 <span className="font-sans text-xs font-light tracking-wide text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded-sm align-middle" style={{ WebkitTextStroke: 0 }}>1846</span>
               </div>
               <div className="text-[10px] tracking-widest text-[#6A5ACD] font-mono uppercase mt-0.5 flex items-center gap-1">
                 <ShieldCheck className="h-3 w-3" /> {t.badge}{lang === "en" ? " & Digital Assets" : ""}
