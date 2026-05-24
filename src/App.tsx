@@ -722,17 +722,17 @@ export default function App() {
 
                     {/* 两步流程：待审核 / 已通过 */}
                     {member.status === "pending" ? (
-                      <div className="space-y-3">
+                      <div className="space-y-3 bg-amber-50 border border-amber-200 rounded-xl px-4 py-4">
                         <div className="flex items-center justify-center gap-2">
                           <span className="h-2 w-2 rounded-full bg-amber-400 animate-pulse" />
-                          <p className="text-sm font-bold text-amber-700 tracking-wide">
+                          <p className="text-sm font-bold text-amber-800 tracking-wide">
                             {CRM_TRANSLATIONS[lang].pendingTitle}
                           </p>
                         </div>
-                        <p className="text-[11px] text-gray-500 font-mono leading-relaxed">
+                        <p className="text-[11px] text-amber-700 font-mono leading-relaxed">
                           {CRM_TRANSLATIONS[lang].pendingDesc}
                         </p>
-                        <div className="text-[10px] font-mono text-gray-400 border border-dashed border-gray-200 rounded-lg px-3 py-2">
+                        <div className="text-[10px] font-mono text-amber-600 border border-dashed border-amber-300 rounded-lg px-3 py-2 bg-white/60">
                           申请编号 · {member.cid}
                         </div>
                       </div>
@@ -750,7 +750,7 @@ export default function App() {
                     }`}>
                       <div className="flex items-center gap-1.5">
                         <span className={`h-1.5 w-1.5 rounded-full ${member.halfsphereSynced ? "bg-emerald-500" : "bg-amber-400"}`} />
-                        <span className="font-bold">半球会员体系</span>
+                        <span className="font-bold">穹弯Halfsphere</span>
                         <span className="opacity-70">
                           {member.halfsphereSynced
                             ? (member.halfsphereId ? `· ${member.halfsphereId}` : "· 已同步")
