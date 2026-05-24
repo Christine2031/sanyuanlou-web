@@ -28,8 +28,17 @@ import {
 // Backend API base URL — set VITE_API_BASE_URL in .env for local dev or Vercel env vars
 const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "";
 
+// 根据域名自动选择默认语言
+// sanyuanlou.com → 简体  |  sanyuanlou.hk → 繁体（默认）
+const getDefaultLang = (): Language => {
+  if (typeof window !== "undefined" && window.location.hostname.includes(".com")) {
+    return "sc";
+  }
+  return "tc";
+};
+
 export default function App() {
-  const [lang, setLang] = useState<Language>("tc");
+  const [lang, setLang] = useState<Language>(getDefaultLang());
   const [activeTab, setActiveTab] = useState<string>("heritage");
   const [systemStatus, setSystemStatus] = useState<"live" | "simulated" | "ready">("live");
   
